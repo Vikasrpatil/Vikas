@@ -1,0 +1,29 @@
+{
+  "name": "pracexpmon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/hazedawn1/sportinone-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hazedawn1/sportinone-express/issues"
+  },
+  "homepage": "https://gitlab.com/hazedawn1/sportinone-express#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.15"
+  },
+  "engines":{
+    "node":"16.14.2"
+  }
+}
